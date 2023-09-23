@@ -1,0 +1,144 @@
+
+/* HEADER RESPONSIVE*/
+@media screen and (max-width:767px) {
+    header .buttonRow{
+        max-width: 350px;
+        margin: auto;
+        margin-top: 16px;
+    }
+    header .buttonRow .col-md-6{
+        margin: 0;
+    }
+    header .buttonRow .col-md-6:nth-child(1){
+        margin-bottom: 16px;
+    }
+}
+@media screen and (max-width:310px) {
+    .header-text h1{
+        font-size: 32px;
+    }
+    .header-text p{
+        font-size: 16px;
+    }
+}
+/* HEADER EXIT */
+
+/* ABOUT RESPONSIVE */
+@media screen and (min-width:992px) and (max-width:1342px) {
+    .about input{
+        margin-bottom: 12px;
+    }
+}
+@media screen and (max-width:991px) {
+    .about .middleResponsive{
+        text-align: center;
+    }
+    .about .col-lg-4{
+        margin-top: 24px;
+    }
+    .about .col-lg-4:nth-child(2){
+        display: none;
+    }
+    .about .col-lg-4 .mt-3{
+        margin-bottom: 16px;
+    }
+}
+@media screen and (max-width:485px){
+    .about input{
+        margin-bottom: 12px;
+    }
+}
+/* ABOUT EXIT */
+
+/* TEAM RESPONSIVE */
+@media screen and (min-width:1207px) and (max-width:1406px) {
+    .team .outOverlay .rowOne{
+        gap: 50px;
+        padding: 50px 0;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1206px) {
+    .team .outOverlay .rowOne{
+        gap: 10px;
+        padding: 50px 0;
+    }
+    .team .outOverlay .rowOne .col-md-4{
+        max-width: 300px;
+    }
+    .team .outOverlay .rowTwo .card-text{
+        font-size:12px;
+    }  
+    .team .rowTwo .col-5 .left-icon{
+        position: absolute;
+        bottom: 10px;
+        right: -75px;
+        display: flex;
+        align-items: center;
+        background: var(--main-color);
+        color: var(--white);
+        border-radius: 30px 0 0 30px;
+        transition: 0.75s ease all;
+        padding-right: 5px;
+    }
+    .team .rowTwo .left-icon:hover{
+            right: 0;
+    }
+    .team .outOverlay .rowTwo a{
+        width: 24px;
+        height: 35px;
+    }
+    .team .outOverlay .rowTwo i{
+        width: 24px;
+        height: 20px;
+    }
+}
+@media screen and (max-width:404px) {
+    .team .rowTwo .col-5 .left-icon{
+        position: absolute;
+        bottom: 10px;
+        right: -66px;
+        display: flex;
+        align-items: center;
+        background: var(--main-color);
+        color: var(--white);
+        border-radius: 30px 0 0 30px;
+        transition: 0.75s ease all;
+        padding-right: 5px;
+    }
+    .team .rowTwo .left-icon:hover{
+            right: 0;
+    }
+    .team .outOverlay .rowTwo a{
+        width: 21px;
+        height: 35px;
+    }
+    .team .outOverlay .rowTwo i{
+        width: 21px;
+        height: 20px;
+    }
+}
+@media screen and (max-width:991px) {
+    .team .rowOne{
+        padding: 0;
+        gap: 40px;
+    }
+    .team h1{
+        margin-bottom: 24px;
+    }
+    .team .col-md-4{
+        margin-top: 0!important;
+    }
+}
+/* TEAM EXIT */
+
+/* CONTACT RESPONSIVE */
+@media screen and (max-width:767px) {
+    .contact .outOverlay .d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact .outOverlay .d-flex button{
+        max-width: 350px;
+    }
+}
+/* CONTACT EXIT */
